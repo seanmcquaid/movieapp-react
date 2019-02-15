@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from "./Navbar"
 import Poster from "./Poster";
 import './App.css';
 
@@ -56,6 +57,7 @@ class App extends Component {
     })
     return (
       <div className="container">
+        <Navbar />
         <div className="row">
         <h1>The Movie App for the 5th Time</h1>
 
